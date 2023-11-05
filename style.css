@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.game-container {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background-color: #111;
+}
+
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 80px;
+  background-color: #fff;
+  top: 160px;
+}
+
+#leftPaddle {
+  left: 10px;
+}
+
+#rightPaddle {
+  right: 10px;
+}
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 195px;
+  left: 395px;
+}
+p{
+  color: azure;
+}
+p{
+  color: azure;
+}
